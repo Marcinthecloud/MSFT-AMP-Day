@@ -17,22 +17,23 @@ We have an 8 node cluster for you to play with! The cluster is currently running
 ssh datastax@ipaddress 
 // You can login to any of these nodes 
 
-Node 1: 52.26.162.19
-Node 2: 52.36.64.67
-Node 3: 52.36.214.40
-Node 4: 52.26.162.19
-Node 5: 52.36.159.175
-Node 6: 52.36.211.216
-Node 7: 52.36.213.110
-Node 8: 52.36.27.29
+Node 1: 104.42.187.219
+Node 2: 104.42.190.140
+Node 3: 104.42.188.64
+Node 4: 104.42.188.139
+Node 5: 104.42.189.223
+Node 6: 104.42.187.92
+Node 7: 104.42.189.49
+Node 8: 104.42.185.60
 password: C@ssandra
 ```
 
 #### UI's you'll want to play around with
  
- - OpsCenter: http://52.36.149.123:8888/
- - Spark Master: http://52.36.149.123:7080
- - Solr UI: http://52.36.149.123:8983/solr/
+ - OpsCenter: http://opscenterjwi2lcmi3nlti.westus.cloudapp.azure.com:8888/opscenter/index.html
+ - Spark Master: http://104.42.188.64:7080
+ - Solr UI: http://104.42.187.219:8983/solr/
+ - Spark Notebook: http://104.42.187.219:9290/
 
 #### Connecting to the cluster from DevCenter
 - Simply add a new connection
@@ -186,7 +187,7 @@ This by default will map Cassandra types to Solr types for you. Anyone familiar 
 ```
 SELECT * FROM <keyspace>.<table> WHERE solr_query=‘{“q”:”column:*”}’;
 
-SELECT * FROM <keyspace>.sales WHERE solr_query='{"q":”name:marc", "fq":”item:*pple*", "sort":”product:asc"}’; 
+SELECT * FROM <keyspace>.sales WHERE solr_query='{"q":”name:marc", "fq":”item:*pple*", "sort":"product asc"}’; 
 ```
 > For your reference, [here's the doc](http://docs.datastax.com/en/datastax_enterprise/4.8/datastax_enterprise/srch/srchCql.html?scroll=srchCQL__srchSolrTokenExp) that shows some of things you can do
 
