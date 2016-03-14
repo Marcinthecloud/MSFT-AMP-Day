@@ -1,4 +1,4 @@
-Welcome to Microsoft's Azure Marketplace Training - DataStax Edition!
+Welcome to DataStax Essentials Day!
 ===================
 ![icon](http://i.imgur.com/FoIOBlt.png)
 
@@ -10,30 +10,33 @@ In this session, you'll learn all about DataStax Enterprise. It's a mix between 
 Hands On Setup
 -------------
 
-We have an 8 node cluster for you to play with! The cluster is currently running in both **search** and **analytics** mode so you can take advantage of both Spark and Solr on your Cassandra data. 
+We have an 12 node cluster for you to play with! The cluster is currently running in both **search** and **analytics** mode so you can take advantage of both Spark and Solr on your Cassandra data. 
 
 ```
 // To SSH into the cluster:
 ssh datastax@ipaddress 
 // You can login to any of these nodes 
 
-Node 1: 104.42.187.219
-Node 2: 104.42.190.140
-Node 3: 104.42.188.64
-Node 4: 104.42.188.139
-Node 5: 104.42.189.223
-Node 6: 104.42.187.92
-Node 7: 104.42.189.49
-Node 8: 104.42.185.60
+Node 1: ssh datastax@104.40.21.26
+Node 2: ssh datastax@104.40.17.84
+Node 3: ssh datastax@104.40.20.59
+Node 4: ssh datastax@104.40.18.37
+Node 5: ssh datastax@104.40.23.128
+Node 6: ssh datastax@104.40.17.18
+Node 7: ssh datastax@104.40.20.12
+Node 8: ssh datastax@104.40.17.211
+Node 9: ssh datastax@104.40.21.203
+Node 10: ssh datastax@104.40.22.194
+Node 11: ssh datastax@104.40.21.112
+Node 12: ssh datastax@104.40.21.31
 password: C@ssandra
 ```
 
 #### UI's you'll want to play around with
  
- - OpsCenter: http://opscenterjwi2lcmi3nlti.westus.cloudapp.azure.com:8888/opscenter/index.html
- - Spark Master: http://104.42.188.64:7080
- - Solr UI: http://104.42.187.219:8983/solr/
- - Spark Notebook: http://104.42.187.219:9290/
+ - OpsCenter: http://138.91.160.136:8888/opscenter/index.html
+ - Spark Master: http://104.40.21.26:7080
+ - Solr UI: http://104.40.21.26:8983/solr/
 
 #### Connecting to the cluster from DevCenter
 - Simply add a new connection
