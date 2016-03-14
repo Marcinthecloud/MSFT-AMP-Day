@@ -1,8 +1,10 @@
-Welcome to DataStax Essentials Day!
+Welcome to Microsoft's Azure Marketplace Training Day! 
 ===================
 ![icon](http://i.imgur.com/FoIOBlt.png)
 
 In this session, you'll learn all about DataStax Enterprise. It's a mix between presentation and hands-on. This is **obviously** your reference for the hands-on content. Feel free to bookmark this page for future reference! 
+
+##Most of the activities can be done on your own VM's - For those who don't have one or want to play around with a multi node cluster, feel free to use the one we provide. Feel free finish and try any exercises we don't get through on your own time on your personal VM's.
 
 ----------
 
