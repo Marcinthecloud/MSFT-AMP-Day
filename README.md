@@ -19,18 +19,11 @@ We have an 12 node cluster for you to play with! The cluster is currently runnin
 ssh datastax@ipaddress 
 // You can login to any of these nodes 
 
-Node 1: ssh datastax@104.40.21.26
-Node 2: ssh datastax@104.40.17.84
-Node 3: ssh datastax@104.40.20.59
-Node 4: ssh datastax@104.40.18.37
-Node 5: ssh datastax@104.40.23.128
-Node 6: ssh datastax@104.40.17.18
-Node 7: ssh datastax@104.40.20.12
-Node 8: ssh datastax@104.40.17.211
-Node 9: ssh datastax@104.40.21.203
-Node 10: ssh datastax@104.40.22.194
-Node 11: ssh datastax@104.40.21.112
-Node 12: ssh datastax@104.40.21.31
+Node 1: ssh datastax@13.91.62.223
+Node 2: ssh datastax@13.91.58.7
+Node 3: ssh datastax@13.91.57.210
+Node 4: ssh datastax@13.91.59.157
+
 password: C@ssandra
 ```
 
