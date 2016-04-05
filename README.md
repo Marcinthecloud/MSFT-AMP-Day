@@ -30,8 +30,8 @@ password: C@ssandra
 #### UI's you'll want to play around with
  
  - OpsCenter: http://13.91.63.245:8888/opscenter/index.html
- - Spark Master: http://13.91.63.245:7080
- - Solr UI: http://13.91.63.245:8983/solr/
+ - Spark Master: http://13.91.62.223:7080/
+ - Solr UI: http://13.91.62.223:8983/solr/#/
 
 #### Connecting to the cluster from DevCenter
 - Simply add a new connection
